@@ -66,7 +66,7 @@ function addPhoto() {
     var img = new Image()
     var size = 80
     var posX = (canvas.width/2)- (size/2)
-    var posY = 350
+    var posY = 360
 
     img.onload = function(){
         ctx.save()

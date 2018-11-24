@@ -1,3 +1,13 @@
+# Todo
+menulis text dan display dinamis
+Dinamis ukuran size font dan lineheight, by input
+memasukkan watermark/brand
+gambar quote by
+mengatur warna background - warna text
+Kira-kira bikin algoritma simple. kalau 3 baris berapa.. kalau 6 baris berapa posisi y nya
+Bonus: vanilla 2 way data binding
+Bonus: Draggable element? but still able to save as image vs SS
+
 # Info
 proyek image editor bagian dari hackalearn Makassar pertama
 
