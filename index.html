@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" enctype="multipart/form-data">
+        <h1>Create Img via HTML Canvas</h1>
+
+        <span>Text</span>
+        <input type="text" id="quote" placeholder="masukkan text disini">
+        <span>Size</span>
+        <input type="text" id="quote_fs" value="50" maxlength="2" size="2" placeholder="font size">
+        <span>Line-Height</span>
+        <input type="text" id="quote_lh" value="50"  maxlength="2" size="2" placeholder="line height">
+
+        <button onclick="drawText()">Add Text</button>
+        <br>
+
+        <span>Add watermark</span>
+        <input type="file" id="file" onchange="addBrand(event)">
+        <br>
+
+        <span>People Image</span>
+        <input type="url" placeholder="Url gambar" id="people_pic">
+        <button type="button" onclick="addPhoto()"> Add Pic </button>
+        <br>
+
+        <span>People Name</span>
+        <input type="text" placeholder="nama orang" id="people_name">
+        <button type="button" onclick="addName()"> Add Name </button>
+        <br>
+
+        <button onclick="reDraw()">Gambar Ulang</button>
+    </form>
+
+    <br><br>
+    <canvas id="myCanvas" width="512" height="512" style="border:1px solid #000000;"></canvas>
+
+    <div class="">
+        <h3> TODO </h3>
+        <li>menulis text dan display dinamis</li>
+        <li>Dinamis ukuran size font dan lineheight, by input</li>
+        <li>memasukkan watermark/brand</li>
+        <li>gambar quote by?</li>
+        <li>mengatur warna background - warna text</li>
+        <li>Kira-kira bikin algoritma simple. kalau 3 baris berapa.. kalau 6 baris berapa posisi y nya</li>
+        <li>Bonus: vanilla 2 way data binding</li>
+        <li>Bonus: Draggable element? but still able to save as image vs SS</li>
+    </div>
+
+    <script src='/js/main.js'></script>
+</body>
+</html>
